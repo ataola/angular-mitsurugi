@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'zcool-2016';
+	src: url('../../../assets/fonts/2016-webfont.woff') format('woff'),
+	url('../../../assets/fonts/2016-webfont.woff2') format('woff2');
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1 {
+	font-family: 'zcool-2016';
+	font-size: 52px;
+}

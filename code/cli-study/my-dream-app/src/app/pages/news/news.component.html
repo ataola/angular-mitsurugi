@@ -1,0 +1,15 @@
+<div class="news-box">
+	<div class="headline">
+		<button class="btn-headline-select hot" (click)="getTodayNews()">今日头条</button>
+		<button class="btn-headline-select" (click)="getYesterdayNews()">昨日头条</button>
+	</div>
+	<div>
+		<ul>
+			<li *ngFor="let news_item of news[status]" class="news-item">
+				<h2 class="news-item-title">{{ news_item.title }}</h2>
+				<div class="news-item-content">{{ news_item.content }}</div>
+				<div class="news-item-info"><span class="blod padding-horizontal-10 new-item-department">{{ news_item.department }}</span> 发表于 {{ news_item.publish_time}}</div>
+			</li>
+		</ul>
+	</div>
+</div>

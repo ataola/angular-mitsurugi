@@ -1,0 +1,38 @@
+[
+  {
+    "name": "李雷",
+    "age": 30,
+    "sex": 0,
+    "hobby": ["readding"]
+  },
+  {
+    "name": "韩梅梅",
+    "age": 30,
+    "sex": 1,
+    "hobby": ["piano"]
+  },
+  {
+    "name": "春娇",
+    "age": 35,
+    "sex": 1,
+    "hobby": ["football", "art"]
+  },
+  {
+    "name": "志明",
+    "age": 36,
+    "sex": 0,
+    "hobby": ["basketball", "math"]
+  },
+  {
+    "name": "夏洛",
+    "age": 20,
+    "sex": 0,
+    "hobby": ["singing"]
+  },
+  {
+    "name": "马冬梅",
+    "age": 20,
+    "sex": 1,
+    "hobby": ["dancing"]
+  }
+]
